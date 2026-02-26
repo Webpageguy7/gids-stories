@@ -1,7 +1,11 @@
 /* styles.css */
 
+body {
+	background-image: url (assets/img/pexels
+}
 h1 {
 	font-size: 150px;
-	color: blue;
-	
+	color: light-blue;
+	text-position: center;
+	outline: white 5px;
 }
