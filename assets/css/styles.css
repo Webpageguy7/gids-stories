@@ -4,8 +4,18 @@ body {
 	background-image: url(../img/pexels-pixabay-277953.jpg);
 }
 h1 {
-	font-size: 150px;
+	font-size: 75px;
 	color: light-blue;
 	text-position: center;
 	outline: white 5px;
+}
+
+img {
+	margin-top: 40px;
+	width: 500px;
+	height: 350px;
+	margin-right: auto;
+	align-items: center;
+	display: block;
+  	margin: 0 auto;
 }
