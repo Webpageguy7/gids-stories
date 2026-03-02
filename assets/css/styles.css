@@ -1,21 +1,95 @@
 /* styles.css */
 
-body {
-	background-image: url(../img/pexels-pixabay-277953.jpg);
-}
+
 h1 {
 	font-size: 75px;
-	color: light-blue;
-	text-position: center;
-	outline: white 5px;
+	color: blue;
+	text-align: center;
 }
 
 img {
-	margin-top: 40px;
-	width: 500px;
-	height: 350px;
+	padding:40px;
+	width: 1000px;
+	height: 750px;
 	margin-right: auto;
 	align-items: center;
 	display: block;
   	margin: 0 auto;
+}
+
+.special1 {
+	width: 750px;
+	height: 1000px;
+	bottom: 100px;
+}
+
+.beetle-car {
+	align-items: center;
+	width: 500px;
+	height: 750px;
+	margin: 40px;
+}
+
+.map-photo {
+	width: 250px;
+ 	height: 250px;
+	margin: 350px;
+}
+
+.the-door {
+	width: 500px;
+	height: 1000px;
+	padding: 20px;
+	align-items: center;
+}
+
+.manga {
+	width:350px;
+	height:500px;
+	padding: 30px;
+	margin: 60px;
+}
+
+.gif {
+	width: 680px;
+	height: 450px;
+	border-radius: 10px;
+  	position: absolute
+}
+
+.top-left {
+  top: 20px;
+  left: 20px;
+}
+
+.top-right {
+	top: 20px;
+	right: 20px;
+	padding-right: 40px;
+
+}
+
+.bottom-right {
+	bottom: 50px;
+	right: 20px;
+}
+
+.bottom-left {
+	bottom: 50px;
+	left: 20px;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+}
+
+.center2 {
+	top: 40%;
+	right: 54%;
+}
+
+.center3 {
+	bottom: 52%;
+	right: 25%;
 }
