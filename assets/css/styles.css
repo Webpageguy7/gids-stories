@@ -1,21 +1,133 @@
 /* styles.css */
 
+.background {
+	background-image: url(../img/outside.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.background2 {
+	background-image: url(../img/giphy.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.background3 {
+	background-image: url(../img/insidebookstore.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.background4 {
+	background-image: url(../img/classroom.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.background5 {
+	background-image: url(../img/bookstore-shelf.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.background6 {
+	background-image: url(../img/carfloor.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.background7 {
+	background-image: url(../img/movingsky.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.background8 {
+	background-image: url(../img/fail.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.background9 {
+	background-image: url(../img/calming.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
 
 h1 {
 	font-size: 75px;
-	color: blue;
+	color: red;
+	background-color: gold;
 	text-align: center;
+	-webkit-text-stroke-width: 2px; /* Outline width */
+ 	-webkit-text-stroke-color: black; /* Outline color */
 }
 
-img {
-	padding:40px;
-	width: 1000px;
-	height: 750px;
-	margin-right: auto;
-	align-items: center;
-	display: block;
-  	margin: 0 auto;
+h2 {
+	font-size: 90px;
+	color: black;
+	text-align:center;
+	background-color: grey;
+	 display: inline-block;
+	-webkit-text-stroke-width: 2px; /* Outline width */
+ 	-webkit-text-stroke-color: aliceblue; /* Outline color */
 }
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: 800;
+	text-align: center;
+	padding: 130px;
+	-webkit-text-stroke-width: 1px; /* Outline width */
+ 	-webkit-text-stroke-color: aliceblue; /* Outline color */
+}
+
+.p2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: 800;
+	text-align: center;
+	padding: 690px;
+	-webkit-text-stroke-width: 1px; /* Outline width */
+ 	-webkit-text-stroke-color: aliceblue; /* Outline color */
+}
+
+.p3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 300px;
+	font-weight: 800;
+	text-align: center;
+	padding: 590px;
+	-webkit-text-stroke-width: 1px; /* Outline width */
+ 	-webkit-text-stroke-color: aliceblue; /* Outline color */
+}
+.specialimage {
+	transform: rotate(55deg);
+	width: 870px;
+	height: 750px;
+	position: absolute;
+  	top: 400px;
+  	right: 430px;
+}	
 
 .special1 {
 	width: 750px;
@@ -24,72 +136,116 @@ img {
 }
 
 .beetle-car {
-	align-items: center;
-	width: 500px;
+	width: 550px;
 	height: 750px;
-	margin: 40px;
+	position: absolute;
 }
 
-.map-photo {
-	width: 250px;
- 	height: 250px;
-	margin: 350px;
+.special2 {
+  	top: 300px;
+	display: block;
+	position: absolute;
+	width: 100%;
+  	height: 100%;
+  	object-fit: fill;
 }
 
 .the-door {
 	width: 500px;
 	height: 1000px;
-	padding: 20px;
-	align-items: center;
+	padding: 50px;
+	position: absolute;
+	top: 300px;
+	right: 1300px;
+}
+
+.bookshop {
+	position:absolute;
+	top: 450px;
+	left: 890px;
+	width:800px;
+	height:auto
+}
+
+.roadtripgif {
+	position: absolute;
+	top: 30%;
+  	left: 36%;
+	height: 500px;
+	width: 850px;
 }
 
 .manga {
-	width:350px;
-	height:500px;
-	padding: 30px;
-	margin: 60px;
+	width:120px;
+	height:170px;
+	position: absolute;
+	right: 2440px;
+	top: 670px;
 }
 
-.gif {
+.manga2 {
+	width:950px;
+	height:1300px;
+	position: absolute;
+  	top: 30px;
+  	right: 800px;
+}
+
+.gif { /* this is for all the gifs besides background used */
 	width: 680px;
 	height: 450px;
 	border-radius: 10px;
   	position: absolute
 }
 
-.top-left {
+.top-left { /* this is for kidsquadgif */
   top: 20px;
   left: 20px;
 }
 
-.top-right {
+.top-left2 { /* this is for OP gif */
+	top: 30px;
+	left: 780px;
+}
+
+.top-right { /*this is for Korocolor gif*/
 	top: 20px;
 	right: 20px;
 	padding-right: 40px;
 
 }
 
-.bottom-right {
+.bottom-right { /*this is for bluehairguy gif*/
 	bottom: 50px;
 	right: 20px;
 }
 
-.bottom-left {
+.bottom-left { /* this is for surprisekiss gif */
 	bottom: 50px;
 	left: 20px;
 }
 
-.center {
+.center { /*this is for KoroGun gif */
   top: 50%;
-  left: 50%;
+  left: 52%;
 }
 
-.center2 {
+.center2 { /* This is for redhairguy gif */
 	top: 40%;
-	right: 54%;
+	right: 49%;
 }
 
-.center3 {
+.center3 { /*this is for angrykoro gif */
 	bottom: 52%;
 	right: 25%;
+}
+
+.center4 { /*this is for CatKoro gif */
+	left: 20px;
+	bottom: 35%;
+}
+
+.center5 { /*this is for studentsjumping gif */
+	right: 60px;
+	bottom: 35%;
 }
